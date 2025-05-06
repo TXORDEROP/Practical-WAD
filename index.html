@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Modern Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  
+
   <header>
     <div class="container">
       <h1>My Portfolio</h1>
       <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
+        <a href="#about">About</a>
+       
       </nav>
     </div>
   </header>
 
-
   <section class="hero">
     <div class="container">
-      <h2>Welcome to My Professional Portfolio</h2>
+      <h2 id="greeting">Welcome to My Professional Portfolio</h2>
       <p>Creating modern, responsive, and user-friendly websites with HTML, CSS, and JavaScript.</p>
-      
+    </div>
+  </section>
+
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a passionate web developer with a love for creating responsive, modern websites. I have experience in HTML,
+        CSS, JavaScript, and various web development frameworks. I’m always eager to learn new technologies and improve my
+        skills.</p>
+      <img src="image.png" alt="My Profile Picture" class="profile-pic">
     </div>
   </section>
 
@@ -33,5 +44,8 @@
       <p>&copy; 2025 Modern Portfolio | Built with OrderOP</p>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
