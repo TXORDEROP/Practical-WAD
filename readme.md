@@ -1,9 +1,8 @@
-# Admin Dashbaord
+# Portfolio Dashbaord
 
 ## List of Components used in this Tutorial
 
 | Component Name  |                                          Docs                                          |
 | --------------- | :------------------------------------------------------------------------------------: |
-| |
-| Home.html |             [For Home Page )                                                                 |
-|About.html        |          [Aboutpager)                                                                 |
+| Home.html       |        [For Home Page )                                                                |
+|About.html       |          [About Page)                                                                  |

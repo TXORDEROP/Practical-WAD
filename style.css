@@ -1,11 +1,11 @@
-/* General Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body and Container */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
@@ -19,7 +19,7 @@ body {
   margin: auto;
 }
 
-/* Header Styling */
+
 header {
   background-color: #333;
   color: #fff;
@@ -41,7 +41,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Hero Section */
+
 .hero {
   background: linear-gradient(to right, #0072ff, #00c6ff);
   color: white;
@@ -68,7 +68,7 @@ nav a:hover {
   color: #0072ff;
 }
 
-/* About Section */
+
 .about {
   padding: 50px 0;
   background-color: #fff;
@@ -81,46 +81,6 @@ nav a:hover {
   border-radius: 50%;
   margin-top: 20px;
 }
-
-/* Contact Section */
-.contact {
-  background-color: #fafafa;
-  padding: 50px 0;
-}
-
-.contact form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.contact form label {
-  margin: 10px 0;
-  font-weight: bold;
-}
-
-.contact form input, .contact form textarea {
-  width: 80%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-.contact form button {
-  background-color: #0072ff;
-  color: white;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.contact form button:hover {
-  background-color: #005bb5;
-}
-
-/* Footer Styling */
 footer {
   background-color: #333;
   color: white;
